@@ -5,11 +5,10 @@ plugins:
   - jekyll-paginate
 
 # SEO相关信息
-title: acgFree
-description: acgFree宝藏库，是ACG游戏爱好者的乐园！ 不仅是一个小黄油资源免费分享平台，更是一个游戏发烧友的交流社区。无论你是寻找二次元、同人galgame资源，还是寻找一群志同道合的朋友，我们都能满足你的需求！
-keywords: ACG游戏,galgame,H小黄油,二次元,同人
-author: acgFree
-footerText: 'Copyright © 2024 AcgFree黄油库'
+title: 冷狐汉化移植
+description: 冷狐汉化移植为安卓用户打开了一扇畅玩黄油和18 RPG手游的大门，通过将原本只能在PC或特定平台上运行的游戏移植到安卓系统，让玩家随时享受游戏之乐。尽管冷狐宝盒的下载渠道目前难以找到，但本页面会一直免费分享冷狐游戏的下载方法。
+keywords: 冷狐汉化移植,随便看内部位18 rpg手游,冷狐宝盒,200款免费游戏大全
+footerText: 'Copyright © 2024 冷狐汉化移植'
 
 # 这些不要动
 permalink: /:year-:month-:day/:title.html
@@ -25,7 +24,7 @@ paginate_path: "/page:num/"  # 分页的URL格式
 
 # 域名配置
 # baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
-domainUrl: 'https://acgfree.github.io'
+domainUrl: 'https://leng-hu.github.io'
 baseurl: ''
 
 # 吐个槽地址，会在chat页面中重定向到该地址
@@ -63,3 +62,7 @@ links:
     url: https://qfafa.com
   - title: 好梯子
     url: https://htizi.cc
+  - title: acgFree宝藏库
+    url: https://acgfree.github.io
+  - title: 成品游戏
+    url: https://chengpin8.github.io
