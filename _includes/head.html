@@ -1,6 +1,7 @@
 {%- assign buildAt = site.time | date: "%Y%m%d%H%M%S" -%}
 <head>
-  <title>{{ page.title }}-{{ site.title }}</title>
+ 
+  <title>{{ page.title }} {%- if page.url != '/' %}-{{ site.title }}{% endif -%}</title>
   <meta charset="utf-8" />
   <meta http-equiv="content-language" content="zh-CN" />
   <meta name="theme-color" content="#ffffff" />
