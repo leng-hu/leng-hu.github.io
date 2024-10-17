@@ -1,7 +1,7 @@
 blog.addLoadEvent(function () {
 	const input = document.getElementById('search-input');
 		if (!input) return;
-	const url="http://qfafa/com/portal/post/search/?k=";
+	const url="https://qfafa.com/portal/post/search/?k=";
 	input.addEventListener('keypress', function(event) {
 		if (event.key === 'Enter') {
 			event.preventDefault();
