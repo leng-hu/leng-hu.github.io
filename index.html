@@ -45,6 +45,16 @@ excerpt: 冷狐汉化移植为安卓用户打开了一扇畅玩黄油和18 RPG�
 <p>冷狐汉化移植为安卓用户打开了一扇畅玩黄油游戏和18RPG手游的大门。通过将原本只能在PC或特定平台上运行的游戏移植到安卓设备，冷狐让玩家能够随时随地享受游戏之乐。无论是从游戏种类、画面质量，还是剧情深度与角色设定来看，冷狐汉化移植的游戏都为玩家提供了无与伦比的体验。</p>
 <p>尽管冷狐宝盒的下载渠道目前难以找到，但冷狐的粉丝们依然通过各种方式分享着这些游戏。虽然冷狐团队已经退出舞台，但他们的作品依然在玩家心中闪耀着光芒。</p>
     </div>
+	<div class="page-content">
+	<h2>最新acg游戏</h2>
+	<ul class="page-list">
+		{% for post in paginator.posts %}
+		<li>
+			<div class="date">{{ post.date | date: "%Y-%m-%d" }}</div><div class="title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+		</li>
+		{% endfor %}
+	</ul>
+    </div>
 </div>
 
 <!-- 分页链接 -->
