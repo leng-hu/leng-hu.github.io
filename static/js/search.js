@@ -10,7 +10,7 @@ blog.addLoadEvent(function () {
 			event.preventDefault();
 			if(input.value===''){
 				isLock=false;
-				tips.text="游戏名字不能为空";
+				tips.textContent="游戏名字不能为空";
 				return false;
 			}
 			isLock=true;
@@ -20,7 +20,7 @@ blog.addLoadEvent(function () {
 	document.getElementById('search-btn').addEventListener('click', function() {
 		if(	isLock) return false;
 		if(input.value===''){
-			tips.text="游戏名字不能为空";
+			tips.textContent="游戏名字不能为空";
 			isLock=false;
 			return false;
 		}
