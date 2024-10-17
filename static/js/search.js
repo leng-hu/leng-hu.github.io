@@ -1,11 +1,14 @@
 blog.addLoadEvent(function () {
-	let input = document.getElementById('search-input');
+	const input = document.getElementById('search-input');
 		if (!input) return;
-	
+	const url="http://qfafa/com/portal/post/search/?k=";
 	input.addEventListener('keypress', function(event) {
 		if (event.key === 'Enter') {
 			event.preventDefault();
-			 location.href="http://qfafa/com/portal/post/search/?k="+encodeURIComponent(input.value);
+			 window.location.href=url+encodeURIComponent(input.value);
 		}
+	});
+	document.getElementById('search-btn').addEventListener('click', function() {
+		window.location.href=url+encodeURIComponent(input.value);
 	});
 });
