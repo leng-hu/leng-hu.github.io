@@ -4,19 +4,13 @@ title: 搜索
 ---
 
 <div class="page page-search">
-  <input id="search-input" type="text" placeholder="请在这里输入关键词^_^"></input>
+  <form id="search-form" action="http://qfafa/com/portal/post/search/" method="get">
+    <div><input id="search-input2" type="text" placeholder="输入游戏名字"></div>
+    <div><button type="submit">立即提交</button></div>
+  </form>
+  <input id="search-input" type="text" placeholder="请在这里输入关键词"></input>
   <h1>
     <span>搜索结果</span>
     <i class="svg-icon icon-loading"></i>
   </h1>
-  <ul class="list-search">
-    {%- for post in site.posts  %}
-    <li hidden>
-      <a href="{{site.baseurl}}{{ post.url }}">
-        <p class="title">{{ post.title }}</p>
-        <p class="content"></p>
-      </a>
-    </li>
-    {%- endfor %}
-  </ul>
 </div>
